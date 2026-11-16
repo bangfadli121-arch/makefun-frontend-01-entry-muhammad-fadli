@@ -1,3 +1,4 @@
+// v2 note: first load is a single file; the bounty, leaderboard and profile views arrive later by import().
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
